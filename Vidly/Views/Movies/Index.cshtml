@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>All Movies</h2>
+
+@foreach (var movie in Model)
+{
+	<p>@movie.Name</p>
+}
+
